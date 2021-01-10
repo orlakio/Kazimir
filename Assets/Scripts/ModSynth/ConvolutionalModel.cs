@@ -2,6 +2,8 @@
 using System.Linq;
 using UnityEngine;
 
+// dovrebbe essere il corrispettivo dell'overlapping model 
+// (divide in blocchi parzialmente sovrapposti per rendere possibile la creazione di nuovi pattern)
 public sealed class ConvolutionalModel : Model {
 
     public ConvolutionalModel(InputModel inputModel, int patternSize, Coord3D outputSize, bool periodic,
